@@ -7,7 +7,6 @@ def browser_max():
     browser.config.window_height = 1600
     browser.config.window_width = 1600
     browser.open('https://google.com')
-    yield browser_max
 
 
 @pytest.fixture(scope="function")
